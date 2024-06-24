@@ -18,12 +18,12 @@
             <p class="err-box-subtitle">This is an Error</p>
         </div>
     </div>
-    <form action="" method="post" id="Main_form">
+    <form action="auth.php" method="post" id="Main_form">
         <section class="form_content">
-            <input type="text" class="username" placeholder="Username">
-            <input type="password" class="pass_input" placeholder="Password">
+            <input type="text" class="username" name="username" placeholder="Username">
+            <input type="text" name="pass_input" class="pass_input" placeholder="Password">
             <div class="form_content_btns">
-                <button>Sign In</button>
+                <button type="submit">Sign In</button>
                 <button>Sign Up</button>
             </div>
             <div class="form_content_forgot">
@@ -33,7 +33,7 @@
         <section class="form_img"><img src="./img/rock.jpg" alt=""></section>
     </form>
 
-    <form action="" method="post" id="main-form-mobile">
+    <form action="auth.php" method="post" id="main-form-mobile">
         <section class="form-img-mobile"><img src="./img/rock.jpg" alt=""></section>
         <section class="form_content">
             <input type="text" class="username" placeholder="Username">
