@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,11 +8,11 @@
     font-family: "Poppins", sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-li{
+li {
     list-style: none;
 }
 input {
@@ -27,13 +27,13 @@ input {
     font-weight: light;
 }
 
-input::placeholder{
+input::placeholder {
     color: rgb(212, 212, 212);
     font-size: 16px;
     font-weight: light;
 }
 
-button{
+button {
     outline: none;
     padding: 0.8rem 2rem;
     background: transparent;
@@ -42,7 +42,7 @@ button{
     cursor: pointer;
 }
 
-body{
+body {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -50,24 +50,29 @@ body{
     background-image: linear-gradient(to right, #bd7576, #a36473, #87556e, #694765, #4b3b58);
 }
 
-#Main_form{
+#Main_form {
     display: flex;
-    background-color: #B64F56;
+    background-color: #b64f56;
     width: 900px;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow:
+        rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-#Main_form .form_img{
+#Main_form .form_img {
     width: 50%;
     overflow: hidden;
 }
-#Main_form .form_img img{
+#Main_form .form_img img {
     width: 100%;
     height: auto;
 }
-#Main_form .form_content{
+#Main_form .form_content {
     padding: 0 80px;
     width: 50%;
     display: flex;
@@ -75,10 +80,10 @@ body{
     justify-content: center;
     align-items: center;
 }
-.pass_input{
+.pass_input {
     margin: 2rem 0;
 }
-.form_content_btns{
+.form_content_btns {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -86,11 +91,38 @@ body{
 .form_content_forgot {
     margin-top: 2rem;
 }
-.form_content_forgot a{
+.form_content_forgot a {
     color: white;
     padding-top: 2rem;
 }
 
-.form_content_forgot a:hover{
+.form_content_forgot a:hover {
     text-decoration: underline;
+}
+
+@media screen and (min-width: 775.5px) {
+    #main-form-mobile {
+        display: none;
+    }
+}
+@media screen and (max-width: 775.5px) {
+    #Main_form {
+        display: none;
+    }
+    #main-form-mobile{
+        width: 500px;
+        height: 90vh;
+        background-color: #b64f56;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    .form-img-mobile{
+        height: 50vh;
+        overflow: hidden;
+    }
+    .form-img-mobile img{
+        width: 100%;
+        height: auto;
+    }
 }
