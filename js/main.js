@@ -1,11 +1,4 @@
-// $("document").ready(() =>{
-
-//     else{
-//         alert("bitch");
-//     }
-// })
-
-function deskTopFormSubmit(e) {
+function FormSubmit(e) {
          if($(".username").val().length === 0){
             e.preventDefault();
             $(".err-box-subtitle").text("Fill in the empty boxes");
@@ -16,4 +9,5 @@ function deskTopFormSubmit(e) {
          },3000)
 }
 
-$("#Main_form").on("submit", deskTopFormSubmit);
+$("#Main_form").on("submit", FormSubmit);
+$("#main-form-mobile").on("submit", FormSubmit);
