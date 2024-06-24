@@ -20,7 +20,7 @@
     </div>
     <form action="" method="post" id="Main_form">
         <section class="form_content">
-            <input type="text" placeholder="Username">
+            <input type="text" class="username" placeholder="Username">
             <input type="password" class="pass_input" placeholder="Password">
             <div class="form_content_btns">
                 <button>Sign In</button>
@@ -48,5 +48,7 @@
         </section>
     </form>
 </body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
 
 </html>
