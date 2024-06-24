@@ -90,3 +90,7 @@ body{
     color: white;
     padding-top: 2rem;
 }
+
+.form_content_forgot a:hover{
+    text-decoration: underline;
+}
