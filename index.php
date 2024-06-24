@@ -6,9 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/errorBox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
+    <div class="error-box hide">
+        <div><i class="fa-solid fa-xmark"></i></div>
+        <div>
+            <h4 class="err-box-title">Error</h4>
+            <p class="err-box-subtitle">This is an Error</p>
+        </div>
+    </div>
     <form action="" method="post" id="Main_form">
         <section class="form_content">
             <input type="text" placeholder="Username">
