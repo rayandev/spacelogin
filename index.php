@@ -26,6 +26,17 @@
 
     <form action="" method="post" id="main-form-mobile">
         <section class="form-img-mobile"><img src="./img/rock.jpg" alt=""></section>
+        <section class="form_content">
+            <input type="text" placeholder="Username">
+            <input type="password" class="pass_input" placeholder="Password">
+            <div class="form_content_btns">
+                <button>Sign In</button>
+                <button>Sign Up</button>
+            </div>
+            <div class="form_content_forgot">
+                <a href="#">Forgot password ?</a>
+            </div>
+        </section>
     </form>
 </body>
 
