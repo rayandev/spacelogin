@@ -15,5 +15,30 @@ li{
 
 body{
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: linear-gradient(to right, #bd7576, #a36473, #87556e, #694765, #4b3b58);
+}
+
+#Main_form{
+    display: flex;
+    background-color: #B64F56;
+    width: 900px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#Main_form .form_img{
+    width: 50%;
+    overflow: hidden;
+}
+#Main_form .form_img img{
+    width: 100%;
+    height: auto;
+    /* object-fit: cover; */
+}
+#Main_form .form_content{
+    width: 50%;
 }
