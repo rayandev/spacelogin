@@ -8,7 +8,9 @@
 </head>
 <body>
     <form action="" method="post" id="Main_form">
-        <section class="form_content">5555</section>
+        <section class="form_content">
+            <input type="text" placeholder="Username">
+        </section>
         <section class="form_img"><img src="./img/rock.jpg" alt=""></section>
     </form>
 </body>
