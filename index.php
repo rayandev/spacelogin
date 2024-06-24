@@ -10,6 +10,7 @@
     <form action="" method="post" id="Main_form">
         <section class="form_content">
             <input type="text" placeholder="Username">
+            <input type="password" class="pass_input" placeholder="Password">
         </section>
         <section class="form_img"><img src="./img/rock.jpg" alt=""></section>
     </form>
